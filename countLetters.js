@@ -25,4 +25,4 @@ const countLetters = function(word) {
 
 countLetters("LHL");
 
-module.exports = countLetters
+module.exports = countLetters;
