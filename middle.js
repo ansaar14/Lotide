@@ -1,5 +1,7 @@
+const eqArrays = require('./eqArrays');
+const assertArraysEqual = require('./assertArraysEqual');
 
-function middle(arr) {
+const middle = function(arr) {
   // For arrays with one or two elements, there is no middle. Return an empty array. //
   if (arr.length < 3) {
     return [];
@@ -15,4 +17,6 @@ function middle(arr) {
     return [arr[Math.floor(arr.length / 2)]];
   }
   
-}
+};
+
+module.exports = middle;
