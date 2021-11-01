@@ -24,3 +24,5 @@ const countLetters = function(word) {
 };
 
 countLetters("LHL");
+
+module.exports = countLetters
